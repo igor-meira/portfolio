@@ -5,10 +5,13 @@ import styled from 'styled-components'
 const ShoppingCartContainer = styled.div`
     border : 1px solid blue;
     margin: 8px;
+    padding: 8px;
 
 `
 const CartListContainer = styled.div`
     display: grid;
+    gap: 8px;
+
 
 `
 
@@ -19,8 +22,11 @@ export class ShoppingCart extends React.Component {
             
             <CartListContainer>
                 <ShoppingCartItem/>
+                <ShoppingCartItem/>
+                <ShoppingCartItem/>
+                <ShoppingCartItem/>
             </CartListContainer>
-            
+                <p>Valor total: R$ 100,00</p>
         </ShoppingCartContainer>
     }
 }

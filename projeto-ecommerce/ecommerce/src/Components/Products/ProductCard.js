@@ -11,7 +11,7 @@ const CardContainer = styled.div`
     border: 1px solid #EAEEF2;
     box-sizing: border-box;
     box-shadow: 0px 8px 24px rgba(112, 144, 176, 0.15);
-    border-radius: 12px;
+    border-radius: 24px;
     justify-content: center;
 `
 const CardInfo = styled.div`
@@ -23,19 +23,26 @@ const CardInfo = styled.div`
         margin: 4px 0;
         padding: 8px;
     }
+
 `
 const AddToCartButton = styled.button`
     align-self: center;
     margin-top: 8px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 24px rgba(112, 144, 176, 0.15);
+    border-radius: 12px;
+    justify-content: center;
 `
 
 export class ProductCard extends React.Component {
     render() {
+        const product = this.props.product
         return <CardContainer>
-            <img src={'https://picsum.photos/200/200'} alt='imagem do produto'/>
+            <img src={product.photo} alt='imagem do produto'/>
             <CardInfo>
-                <p>Produto</p>
-                <p>R$ 100,00</p>
+                <p>{product.name}</p>
+                <p>R$ {product.price},00</p>
                 <AddToCartButton>Adicionar ao carrinho</AddToCartButton>
             </CardInfo>
         </CardContainer>
