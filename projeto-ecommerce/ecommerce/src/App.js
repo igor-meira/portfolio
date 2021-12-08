@@ -41,9 +41,25 @@ const products = [
 
 class App extends React.Component {
   state = {
-      minFilter: '10',
-      maxFilter: '1000',
-      nameFilter: 'produto'
+      minFilter: '',
+      maxFilter: '',
+      nameFilter: 'Produto',
+      productsInCart: [
+        {
+          id: 1,
+          name: 'Produto Legal',
+          price: 70,
+          photo: 'https://picsum.photos/250/200?a=1',
+          quantity: 1
+        },
+        {
+          id: 4,
+          name: 'Produto 4',
+          price: 150,
+          photo: 'https://picsum.photos/250/200?a=4',
+          quantity: 2
+        }
+      ]
   }
 
   render() {
@@ -54,8 +70,15 @@ class App extends React.Component {
             maxFilter={this.state.maxFilter}
             nameFilter={this.state.nameFilter}
         />
-        <Products products={products}/>
-        <ShoppingCart/>
+        <Products 
+            products={products}
+            minFilter={this.state.minFilter}
+            maxFilter={this.state.maxFilter}
+            nameFilter={this.state.nameFilter}
+        />
+        <ShoppingCart
+            productsInCart={this.state.productsInCart}
+        />
       </AppContainer>
     );
   }  
