@@ -3,11 +3,10 @@ import { ShoppingCartItem } from './ShoppingCartItem'
 import styled from 'styled-components';
 
 const ShoppingCartContainer = styled.div`
-    border: 1px solid #00FFFF;
-    box-shadow: 0px 8px 24px rgba(112, 144, 176, 0.15);
-    border-radius: 12px;
-    padding: 8px;
-    background-color: #EAEEF2
+border: 1px solid #EAEEF2;
+border-radius: 12px;
+padding: 24px;
+background-color: #FFFFFF;
 `;
 
 const CartListContainer = styled.div`

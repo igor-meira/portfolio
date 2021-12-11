@@ -8,6 +8,25 @@ const CardContainer = styled.div`
     border: 1px solid #EAEEF2;
     box-shadow: 0px 8px 24px rgba(112, 144, 176, 0.15);
     border-radius: 12px;
+
+    img {
+      border-radius: 12px 12px 0 0;
+    };
+
+    button {
+      background-color: #EAEEF2;
+        height: 32px;
+        border: 1px solid #EAEEF2;
+        margin-left: 8px
+        border-radius: 12px;
+      };
+
+    button:hover {
+      background-color: #FFFFFF;
+
+
+    }
+
 `;
 
 const CardInfo = styled.div`

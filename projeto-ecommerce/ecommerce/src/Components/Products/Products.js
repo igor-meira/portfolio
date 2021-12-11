@@ -11,6 +11,13 @@ const ProductsHeader = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
+
+    select {
+      background-color: #FFFFFF;
+        height: 24px;
+        border: 1px solid #EAEEF2;
+        margin-left: 8px;
+    }
 `
 
 const ProductsGrid = styled.div`
@@ -44,10 +51,10 @@ export class Products extends React.Component {
       <ProductsHeader>
         <p>Quantidade de produtos: {filteredAndOrderedList.length}</p>
         <label>
-          Ordenação:
+          Ordenação:  
           <select value={this.state.sort} onChange={this.onChangeSort}>
-            <option value={'CRESCENTE'}>Crescente</option>
-            <option value={'DECRESCENTE'}>Decrescente</option>
+            <option value={'CRESCENTE'}>Menor preço</option>
+            <option value={'DECRESCENTE'}>Maior preço</option>
           </select>
         </label>
       </ProductsHeader>

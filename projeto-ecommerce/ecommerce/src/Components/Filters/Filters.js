@@ -2,21 +2,23 @@ import React from 'react'
 import styled from 'styled-components';
 
 const FiltersContainer = styled.div`
-    border: 1px solid #00FFFF;
-    box-shadow: 0px 8px 24px rgba(112, 144, 176, 0.15);
+    border: 1px solid #EAEEF2;
     border-radius: 12px;
-    padding: 8px;
-    background-color: #EAEEF2;
+    padding: 24px;
+    background-color: #FFFFFF;
 `;
 
 const InputContainer = styled.label`
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     margin-bottom: 8px;
 
     input {
-        background-color: #E5E5E5;
+        background-color: #FFFFFF;
+        height: 24px;
+        border: 1px solid #EAEEF2;
+
     }
 `
 

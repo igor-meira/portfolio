@@ -10,6 +10,20 @@ const ItemContainer = styled.div`
   p {
     margin: 0;
   }
+
+  button {
+    background-color: #EAEEF2;
+      height: 32px;
+      border: 1px solid #EAEEF2;
+      margin-left: 8px
+      border-radius: 12px;
+    };
+
+  button:hover {
+    background-color: #FFFFFF;
+
+
+  }
 `
 
 

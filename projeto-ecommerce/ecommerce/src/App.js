@@ -4,8 +4,9 @@ import { Products } from './Components/Products/Products';
 import { ShoppingCart } from './Components/ShoppingCart/ShoppingCart';
 import styled from 'styled-components'
 
+
 const AppContainer = styled.div`
-    background-color: #FFFAFA;
+    background-color: #FCFEFF;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     padding: 16px;
