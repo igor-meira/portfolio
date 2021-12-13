@@ -1,38 +1,35 @@
 import React from 'react'
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const CardContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #EAEEF2;
+  box-shadow: 0px 8px 24px rgba(112, 144, 176, 0.15);
+  border-radius: 12px;
+
+  img {
+    border-radius: 12px 12px 0 0;
+  };
+
+  button {
+    background-color: #EAEEF2;
+    height: 32px;
     border: 1px solid #EAEEF2;
-    box-shadow: 0px 8px 24px rgba(112, 144, 176, 0.15);
+    margin-left: 8px
     border-radius: 12px;
+  };
 
-    img {
-      border-radius: 12px 12px 0 0;
-    };
-
-    button {
-      background-color: #EAEEF2;
-        height: 32px;
-        border: 1px solid #EAEEF2;
-        margin-left: 8px
-        border-radius: 12px;
-      };
-
-    button:hover {
-      background-color: #FFFFFF;
-
-
-    }
-
-`;
+  button:hover {
+    background-color: #FFFFFF;
+  }
+`
 
 const CardInfo = styled.div`
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
 
   p {
     margin: 4px 0;
@@ -40,8 +37,8 @@ const CardInfo = styled.div`
 `
 
 const AddToCartButton = styled.button`
-    align-self: center;
-    margin-top: 4px;
+  align-self: center;
+  margin-top: 4px;
 `
 
 export class ProductCard extends React.Component {

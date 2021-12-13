@@ -1,17 +1,17 @@
 import React from 'react'
 import { ShoppingCartItem } from './ShoppingCartItem'
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const ShoppingCartContainer = styled.div`
-border: 1px solid #EAEEF2;
-border-radius: 12px;
-padding: 24px;
-background-color: #FFFFFF;
-`;
+  border: 1px solid #EAEEF2;
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #FFFFFF;
+`
 
 const CartListContainer = styled.div`
-    display: grid;
-    gap: 8px;
+  display: grid;
+  gap: 8px;
 `
 
 export class ShoppingCart extends React.Component {

@@ -6,18 +6,18 @@ import styled from 'styled-components'
 
 
 const AppContainer = styled.div`
-    background-color: #FCFEFF;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    padding: 16px;
-    gap: 8px;
-`;
+  background-color: #FCFEFF;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 16px;
+  gap: 8px;
+`
 
 const products = [
   {
     id: 1,
-    name: 'Produto legal',
-    price: 123,
+    name: 'Produto 1',
+    price: 300,
     photo: 'https://picsum.photos/200/200?a=1'
   },
   {
@@ -42,10 +42,10 @@ const products = [
 
 class App extends React.Component {
   state = {
-    minFilter: '',
-    maxFilter: '',
-    nameFilter: '',
-    productsInCart: []
+  minFilter: '',
+  maxFilter: '',
+  nameFilter: '',
+  productsInCart: []
   }
 
   onChangeMinFilter = (event) => {
