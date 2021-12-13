@@ -32,4 +32,4 @@ As seguintes tecnologias foram utilizadas no projeto:
 
 ### Autor
 
- <a href="https://www.linkedin.com/in/igor-meira-55422a1b5/">Igor Meira do Nascimento Silva</a>
+- <a href="https://www.linkedin.com/in/igor-meira-55422a1b5/">Igor Meira do Nascimento Silva</a>
