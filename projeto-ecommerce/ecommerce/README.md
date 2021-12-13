@@ -31,7 +31,7 @@ As seguintes tecnologias foram utilizadas no projeto:
 - [React]
 
 ### Link do Projeto
-- <a href="http://cruz-labe-commerce3.surge.sh/">Labe Commerce</a> 
+- <a href="ecommerceigor.surge.sh">Ecommerceigor</a> 
 
 ### Autores
 
