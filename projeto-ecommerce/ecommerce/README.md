@@ -31,7 +31,7 @@ As seguintes tecnologias foram utilizadas no projeto:
 - [React]
 
 ### Link do Projeto
-- <a href="ecommerceigor.surge.sh">Ecommerceigor</a> 
+- <a href="http://ecommerceigor.surge.sh/">Ecommerceigor</a> 
 
 ### Autores
 
