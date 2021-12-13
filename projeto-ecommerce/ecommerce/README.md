@@ -6,7 +6,7 @@
  <a href="#objetivo">Objetivo</a> •
  <a href="#Pré-Requisitos">Pré-Requisitos</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#autores">Autores</a> 
+ <a href="#autor">Autores</a> 
 </p>
   
 <h4>PROJETO FINALIZADO</h4>
@@ -33,6 +33,6 @@ As seguintes tecnologias foram utilizadas no projeto:
 ### Link do Projeto
 - <a href="http://ecommerceigor.surge.sh/">Ecommerce Igor Meira</a> 
 
-### Autores
+### Autor
 
 *Igor Meira do Nascimento Silva*
